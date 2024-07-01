@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sdevprem.runtrack.ui.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="26dp"
+        android:padding="16dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/rl_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center"
+                android:padding="16dp"
+                >
+                <ImageView
+                    android:id="@+id/img_avt"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:src="@drawable/img_avt"
+                    android:layout_centerVertical="true"
+                    android:elevation="4dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/img_avt"
+                    android:fontFamily="@font/sans_medium"
+                    android:paddingStart="16dp"
+                    android:text="Anh Trong"
+                    android:textColor="#1B1638"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anh@gmail.com"
+                    android:layout_toRightOf="@+id/img_avt"
+                    android:layout_below="@+id/tv_name"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/sans_regular"
+                    android:textColor="#1B1638"
+                    android:paddingStart="16dp"
+                    />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/btn_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_map"
+                app:layout_constraintTop_toBottomOf="@id/rl_view"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                />
+            <ImageView
+                android:id="@+id/btn_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_healthy"
+                app:layout_constraintTop_toBottomOf="@id/btn_map"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/btn_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_setting"
+                app:layout_constraintTop_toBottomOf="@id/btn_health"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+
+                />
+            <ImageView
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_logout"
+                app:layout_constraintTop_toBottomOf="@id/btn_setting"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

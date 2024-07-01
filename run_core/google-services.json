@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "673886568072",
+    "firebase_url": "https://signup-login-realtime-2b8ed-default-rtdb.firebaseio.com",
+    "project_id": "signup-login-realtime-2b8ed",
+    "storage_bucket": "signup-login-realtime-2b8ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673886568072:android:410c0b292e01a8c8d4e93d",
+        "android_client_info": {
+          "package_name": "com.example.loginrunning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN20votgyqhjhUJE1XI26hfExQLSvyV8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673886568072:android:3d1a91b9787d3647d4e93d",
+        "android_client_info": {
+          "package_name": "com.example.run_core"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN20votgyqhjhUJE1XI26hfExQLSvyV8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673886568072:android:83d003f834477368d4e93d",
+        "android_client_info": {
+          "package_name": "com.example.signuploginrealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN20votgyqhjhUJE1XI26hfExQLSvyV8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673886568072:android:c01affbed77092a7d4e93d",
+        "android_client_info": {
+          "package_name": "com.journaldev.maproutebetweenmarkers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN20votgyqhjhUJE1XI26hfExQLSvyV8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673886568072:android:87d2eaa5a2f6d256d4e93d",
+        "android_client_info": {
+          "package_name": "com.sdevprem.runtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN20votgyqhjhUJE1XI26hfExQLSvyV8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

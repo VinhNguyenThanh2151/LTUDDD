@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/img_background_new"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="16dp"
+            android:adjustViewBounds="true"
+            android:paddingBottom="34dp"
+            android:src="@drawable/hut"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/img_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_text_content"
+            android:layout_marginTop="22dp"
+            android:text="Smart Running App"
+            android:textSize="38sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintTop_toBottomOf="@id/img_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in your account"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sans_regular"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img_text"
+            />
+
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/sans_regular"
+            android:drawableStart="@drawable/ic_email"
+            android:padding="15dp"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_bg_text"
+            android:hint="Email"
+            android:drawableTint="#1B1638"
+            android:textColorHint="#1B1638"
+            app:layout_constraintTop_toBottomOf="@+id/tv_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="#1B1638" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/sans_regular"
+            android:drawableStart="@drawable/ic_lock"
+            android:padding="15dp"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_bg_text"
+            android:drawableTint="#1B1638"
+            android:textColorHint="#1B1638"
+            app:layout_constraintTop_toBottomOf="@+id/edt_email"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#1B1638" />
+        <TextView
+            android:id="@+id/txtForgetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="end"
+            android:text="Forget password?"
+            android:textColor="#1B1638"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/edt_password"
+            android:layout_marginTop="16dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_bg_text"
+            android:backgroundTint="#53A7F4"
+            app:layout_constraintTop_toBottomOf="@id/txtForgetPassword"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:text="Log in"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:elevation="10dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/btnLogin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don’t have account?"
+                />
+            <View
+                android:layout_width="6dp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:padding="8dp"
+                android:textColor="#1B1638"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
